@@ -1,3 +1,41 @@
+Test assignment for the front-end developer position applicants
+----
+This repository contains the back-end component for a game of **tic-tac-toe** against the AI. Your assignment is to develop the front-end.
+
+Upon completing the assignment, you are supposed to deliver a fork of this repository. Cloning the fork, invoking `npm-start`, and running http://localhost:3000 in a browser should open a working SPA application that meets the requirements below.
+
+You can and you should use various frameworks, libraries, and other development simplification and time-reduction tools.
+
+Scalable architecture and mobile support will be considered an advantage.
+
+# Requirements
+- The front-end presents the interface for a game of tic-tac-toe against the AI (back-end implementation supplied).
+- Interaction with the AI and acquisition of data about the current game and previous games are performed via the REST API.
+- The application screens includes the following elements:
+  - The main game screen:
+    - *(`X`, `O`)* commands, one for the player, the other for the AI
+    - gameboard
+    - log of the moves in the current round.
+  - The scoreboard
+    - scores of all previously played rounds
+    - the total of wins and losses *(player:AI, Х:О)*
+- The game should not be interrupted by switching between screens
+- The game should be mostly mouse-controlled
+
+# Game rules
+Obviously, the general rules conform to the classical tic-tac-toe game. Xs go first. In the first game upon the server launch the player is X, the UI is O. In each subsequent round, they swap places. The number of rounds is not limited. In each round the player is opposed by the AI.
+
+# API
+The API documentation is generated via the [Postman collection](https://documenter.getpostman.com/view/1050162/frontend-testcase/7TFGFKr).
+Add this collection for the enhancement and simplification of your development process.
+
+# Back-end
+The back-end requires the current version of `nodejs`. It is launched by `npm start`.
+No database is used, therefore all rounds, including the current one, are lost if the server is restarted.
+The entire configuration is contained in the `./config.json` file. It also includes the `app.front_path` parameter that you might need to modify if your application is compiled in an alternative location.
+
+----
+
 Тестовое задание для кандидатов на позицию фронтенд-разработчика
 ----
 В этой репе лежит бекенд для игры в **крестики-нолики** против ИИ. Ваша задача - написать фронтенд.
