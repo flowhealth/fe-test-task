@@ -4,9 +4,7 @@ This repository contains the back-end component for a game of **tic-tac-toe** ag
 
 Upon completing the assignment, you are supposed to deliver a fork of this repository. Cloning the fork, invoking `npm-start`, and running http://localhost:3000 in a browser should open a working SPA application that meets the requirements below.
 
-You can and you should use various frameworks, libraries, and other development simplification and time-reduction tools.
-
-Scalable architecture and mobile support will be considered an advantage.
+You are required to use a multitude of frameworks, libraries and other tools for development simplification and acceleration. The inherent scalability and mobile devices support are also mandatory.
 
 # Requirements
 - The front-end presents the interface for a game of tic-tac-toe against the AI (back-end implementation supplied).
@@ -42,9 +40,7 @@ The entire configuration is contained in the `./config.json` file. It also inclu
 
 **Результатом вашей работы** будет форк этого репозитория, склонировав который, запустив `npm start` и открыв в браузере http://localhost:3000 можно будет увидеть работающее SPA приложение, которе удовлетворяет требованиям описанным ниже.
 
-Можно и нужно использовать всевозможные фреймворки, библиотеки и прочие инструменты упрощения и ускорения разработки.
-
-Плюсом будет масштабируемая архитектура и поддержка мобильных.
+Нужно использовать всевозможные фреймворки, библиотеки и прочие инструменты упрощения и ускорения разработки. Масштабируемую архитектуру и поддержку мобильных устройств также необходимо предусмотреть.
 
 # Требования
 - фронтенд должен представлять интерфейс для игры в крестики-нолики против ИИ (ИИ реализован на бекенеде)
