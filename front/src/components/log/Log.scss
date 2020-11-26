@@ -1,0 +1,9 @@
+.log {
+  &-item {
+    margin-bottom: map-get($offsets, sm);
+
+    &.by-player {
+      color: map-get($colors, accent);
+    }
+  }
+}

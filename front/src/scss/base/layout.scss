@@ -1,0 +1,35 @@
+@import 'variables';
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: map-get($offsets, md);
+}
+
+.section {
+  &:not(:first-of-type) {
+    padding-top: map-get($offsets, md);
+    margin-top: map-get($offsets, md);
+    border-top: 2px solid map-get($colors, primary);
+  }
+}
+
+.nav-button {
+  display: inline-block;
+  padding: map-get($offsets, sm);
+  color: map-get($colors, primary);
+  background: #fff;
+  border: 2px solid map-get($colors, primary);
+
+  &:hover {
+    color: map-get($colors, accent);
+    text-decoration: none;
+    border-color: map-get($colors, accent);
+  }
+
+  @media (max-width: 768px) {
+    padding: map-get($offsets, xs);
+  }
+}

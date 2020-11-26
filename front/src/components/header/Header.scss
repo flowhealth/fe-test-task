@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  margin-bottom: map-get($offsets, md);
+  padding-bottom: map-get($offsets, sm);
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 10px solid map-get($colors, primary);
+
+  .title {
+    margin-bottom: 0;
+    line-height: 20px;
+  }
+}

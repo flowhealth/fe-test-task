@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2227c93d-f3d9-434f-ae42-949ac598776c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/front/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/App.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/board/Board.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/board/Board.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/common/Title/Title.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/common/Title/Title.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/common/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/common/mark/Mark.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/common/mark/Mark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/common/mark/svg/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/game/Game.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/game/Game.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/header/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/header/Header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/statistics/Statistics.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/scss/base/layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/scss/base/typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/scss/base/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/scss/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/utils/api/apiHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/utils/api/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/utils/gameLog/gameLogger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kmnl6G9MmIbChSj8yAftNI2lNT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/front/src/components" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Helen\PhpstormProjects\fe-test-task\front\src\scss\base" />
+      <recent name="C:\Users\Helen\PhpstormProjects\fe-test-task\front\src\utils\api" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Helen\PhpstormProjects\fe-test-task\front\src\components" />
+      <recent name="C:\Users\Helen\PhpstormProjects\fe-test-task\front\src\components\common" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2227c93d-f3d9-434f-ae42-949ac598776c" name="Default Changelist" comment="" />
+      <created>1606314781434</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606314781434</updated>
+      <workItem from="1606314782781" duration="27088000" />
+      <workItem from="1606392431445" duration="32494000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="529" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606336209245">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="529" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1606336209245" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1606328171365">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606328171365" />
+    <state x="563" y="115" key="RollbackChangesDialog" timestamp="1606316072909">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="563" y="115" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606316072909" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1606318884878">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1606318884878" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606431744120">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1606431744120" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606327163400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1606327163400" />
+    <state x="93" y="93" width="1350" height="638" key="dock-window-1" timestamp="1606432872498">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1606432872498" />
+    <state x="478" y="145" width="579" height="592" key="find.popup" timestamp="1606431340313">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="145" width="579" height="592" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1606431340313" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1606432662341">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1606432662341" />
+  </component>
+</project>
