@@ -1,1 +1,163 @@
-<center><h1>Тестовое задание для кандидатов на позицию фронтенд-разработчика</h1></center>
+<style>
+    body,td,div {
+        font-family: sans-serif;
+    }
+
+    #game td {
+        width: 123px;
+        height: 123px;
+        text-align: center;
+    }
+
+    #game td button {
+        width: 100%;
+        height: 100%;
+        font-size: 50px;
+    }
+
+    #game td {
+        font-size: 50px;
+        font-weight: bold;
+        text-transform: uppercase
+    }
+
+    table {
+        margin: 50px auto;
+    }
+
+    .content {
+        display: none;
+    }
+
+    .content.content--active {
+        display: block;
+    }
+
+    #meta {
+        overflow: hidden;
+    }
+
+    #meta div {
+        width: 50%;
+        font-size: 30px;
+        display: inner-block;
+        float: left;
+        text-align: center;
+    }
+
+    .playerX {
+        background: red;
+        color: white;
+    }
+
+    .playerO {
+        background: blue;
+        color: white;
+    }
+
+    #reset,#next {
+        width: 49%;
+        margin: 0;
+    }
+
+    .animateX {
+        animation: blinkX 1s;
+    }
+
+    .animateO {
+        animation: blinkO 1s;
+    }
+
+    @keyframes blinkX {
+        0% {
+            background-color: red;
+        }
+
+        100% {
+            background-color: white;
+        }
+    }
+
+    @keyframes blinkO {
+        0% {
+            background-color: blue;
+        }
+
+        100% {
+            background-color: white;
+        }
+    }
+</style>
+<head>
+    <link href="material-components-web.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="icon.css">
+    <script src="material-components-web.js"></script>
+    <script src="luxon.min.js"></script>
+    <script src="plotly-latest.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<center>
+    <h1>Тестовое задание для кандидатов на позицию фронтенд-разработчика</h1>
+</center>
+<div class="mdc-tab-bar" role="tablist">
+    <div class="mdc-tab-scroller">
+        <div class="mdc-tab-scroller__scroll-area">
+            <div class="mdc-tab-scroller__scroll-content">
+                <button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+                    <span class="mdc-tab__content">
+                        <span class="mdc-tab__icon material-icons" aria-hidden="true">baby_changing_station</span>
+                        <span class="mdc-tab__text-label">Game board</span>
+                    </span>
+                    <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                        <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                    </span>
+                    <span class="mdc-tab__ripple"></span>
+                </button>
+                <button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+                    <span class="mdc-tab__content">
+                        <span class="mdc-tab__icon material-icons" aria-hidden="true">accessible_forward</span>
+                        <span class="mdc-tab__text-label">Hall of shame</span>
+                    </span>
+                    <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                        <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                    </span>
+                    <span class="mdc-tab__ripple"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="content content--active">
+    <div id=meta></div>
+    <table border=10 id=game></table>
+    <button class="mdc-button" id=next>
+        <div class="mdc-button__ripple"></div>
+        <span class="mdc-tab__icon material-icons" aria-hidden="true">male</span>
+        <span class="mdc-button__label">NEXT</span>
+    </button>
+    <button class="mdc-button" id=reset>
+        <div class="mdc-button__ripple"></div>
+        <span class="mdc-tab__icon material-icons" aria-hidden="true">wheelchair_pickup</span>
+        <span class="mdc-button__label">RESET</span>
+    </button>
+</div>
+<div class=content>
+    <div class=stats>
+        <div id=stat1></div>
+        <div id=stat2></div>
+    </div>
+    <ul class="mdc-list" id=iddqd></ul>
+    <button class="mdc-button" id=erase>
+        <div class="mdc-button__ripple"></div>
+        <span class="mdc-tab__icon material-icons" aria-hidden="true">coronavirus</span>
+        <span class="mdc-button__label">Erase all history</span>
+    </button>
+</div>
+<div class="mdc-snackbar" id="snackbar1">
+    <div class="mdc-snackbar__surface">
+        <div class="mdc-snackbar__label" role="status" aria-live="polite"></div>
+        <div class="mdc-snackbar__actions">
+            <button type="button" class="mdc-button mdc-snackbar__action">Клозе</button>
+        </div>
+    </div>
+</div>
